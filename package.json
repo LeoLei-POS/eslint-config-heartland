@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-heartland-restaurant",
+  "version": "1.0.0",
+  "description": "Eslint config for Heartland Restaurant frontend projects",
+  "main": "config/base.js",
+  "scripts": {
+    "release": "standard-version",
+    "postrelease": "git push && git push --tags && npm publish"
+  },
+  "author": "Leo Lei <Leo.Lei@globalpay.com>",
+  "license": "ISC",
+  "files": [
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobileBytes/eslint-config-heartland-restaurant.git"
+  },
+  "keywords": [
+    "eslint",
+    "heartland-restaurant"
+  ],
+  "dependencies": {
+    "@typescript-eslint/parser": "4.27.0",
+    "babel-eslint": "10.1.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-jest": "24.3.6",
+    "typescript": "4.3.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "standard-version": "^9.1.0"
+  }
+}
